@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GlobalFunctions
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @description  Global Functions
 // @author       Ploswi
 // @match        https://habblive.in/betastaffv2
