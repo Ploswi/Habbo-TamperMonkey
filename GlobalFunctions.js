@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Global Functions
+// @name         GlobalFunctions
 // @namespace    http://tampermonkey.net/
 // @version      0.3
 // @description  Global Functions
