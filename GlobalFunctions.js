@@ -1,17 +1,3 @@
-// ==UserScript==
-// @name         GlobalFunctions
-// @namespace    http://tampermonkey.net/
-// @version      0.4
-// @description  Global Functions
-// @author       Ploswi
-// @match        https://habblive.in/betastaffv2
-// @match        https://habblive.in/bigclient
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=habblive.in
-// @downloadURL  https://raw.githubusercontent.com/Ploswi/Habbo-TamperMonkey/refs/heads/main/GlobalFunctions.js?token=GHSAT0AAAAAADLHOH37USCAODE6LY4EKNC22GISHZA
-// @updateURL    https://raw.githubusercontent.com/Ploswi/Habbo-TamperMonkey/refs/heads/main/GlobalFunctions.js?token=GHSAT0AAAAAADLHOH37USCAODE6LY4EKNC22GISHZA
-// @grant        none
-// ==/UserScript==
-
 (function() {
     'use strict';
 
