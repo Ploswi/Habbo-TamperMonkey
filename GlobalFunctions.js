@@ -1,4 +1,4 @@
-`function dragElement(elmnt)
+function dragElement(elmnt)
 {
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
 
@@ -102,4 +102,3 @@ function sleep(ms)
 {
         return new Promise(resolve => setTimeout(resolve, ms));
 }
-`
