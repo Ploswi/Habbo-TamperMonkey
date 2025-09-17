@@ -71,32 +71,21 @@ function displayDiv(div)
                 div.style.display = "none";
         }
 }
-function pressEnter(element)
-{
-        const keyEvent = new KeyboardEvent('keydown', {
-                code: 'Enter',
-                key: 'Enter',
-                charCode: 13,
-                keyCode: 13,
-                bubbles: true
-        });
-        element.dispatchEvent(keyEvent);
-}
-function pressEnterBold(element)
-{
-        if(document.getElementById("checkboxList3").checked)
-        {
-                const keyEvent = new KeyboardEvent('keydown', {
-                        code: 'Enter',
-                        key: 'Enter',
-                        charCode: 13,
-                        keyCode: 13,
-                        view: window,
-                        shiftKey: true,
-                        bubbles: true
-                });
-                element.dispatchEvent(keyEvent);
-        }
+function pressEnter(element, withShift = false) {
+    const checkbox = document.getElementById("checkboxList3");
+    const shiftActive = withShift && checkbox?.checked;
+
+    const keyEvent = new KeyboardEvent('keydown', {
+        code: 'Enter',
+        key: 'Enter',
+        charCode: 13,
+        keyCode: 13,
+        view: window,
+        shiftKey: shiftActive,
+        bubbles: true
+    });
+
+    element.dispatchEvent(keyEvent);
 }
 function sleep(ms)
 {
