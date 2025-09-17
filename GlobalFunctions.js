@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Global Functions
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.1
 // @description  Global Functions
 // @author       Ploswi
-// @match        https://habblive.in/betastaffv2
+// @match        https://habblive.in/Staff
 // @match        https://habblive.in/bigclient
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=habblive.in
 // @grant        none
