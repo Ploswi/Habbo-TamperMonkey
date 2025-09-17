@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AntiRadio
 // @namespace    http://tampermonkey.net/
-// @version      0.11
+// @version      0.2
 // @description  Deleta as NODEs das rádios
 // @author       Ploswi
 // @match        https://habblive.in/betastaffv2
