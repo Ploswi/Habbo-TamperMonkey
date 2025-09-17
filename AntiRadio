@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AntiRadio
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.1
 // @description  Deleta as NODEs das rádios
 // @author       Ploswi
 // @match        https://habblive.in/betastaffv2
@@ -24,7 +24,7 @@
             }
             else
             {
-                console.log("Searching radio....");
+                console.log("Searching radio...");
             }
         }
     }
